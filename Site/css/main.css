@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    position: absolute;
+    height: 500px;
+    z-index: 0;
+    margin-top: -200px;
+}
+
+header h1 {
+    font-weight: 900;
+    font-size: 96pt;
+    z-index: 1;
+}
+
+header hr {
+    width: 25%;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+header h2 {
+    font-weight: 400;
+    z-index: 1;
+}
+
+header h2 strong {
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+}
+
+
+.qa {
+    background-color: #eee;
+    padding: 30px 0;
+}
+
+.qa h1 {
+    font-size: 36pt;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.qa h2 {
+    font-size: 24pt;
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.qa p {
+    font-size: 16pt;
+    margin-top: 10px;
+}
